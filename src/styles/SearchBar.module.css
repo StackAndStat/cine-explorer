@@ -1,0 +1,44 @@
+.searchContainer {
+  flex: 1;
+  max-width: 48rem;
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.searchInput:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.searchIconDark {
+  color: #9ca3af;
+}
+
+.searchIconLight {
+  color: #6b7280;
+}
+
+.inputDarkMode {
+  background-color: #374151;
+  color: #ffffff;
+}
+
+.inputLightMode {
+  background-color: #f3f4f6;
+  color: #111827;
+}

@@ -1,0 +1,31 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.875;
+}
+
+.dark {
+  background-color: #374151;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.watchlist {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.favourite {
+  background-color: #ef4444;
+  color: #ffffff;
+}

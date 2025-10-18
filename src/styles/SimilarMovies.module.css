@@ -1,0 +1,34 @@
+.section {
+  composes: section from "./Overview.module.css";
+}
+
+.sectionTitle {
+  composes: sectionTitle from "./Overview.module.css";
+}
+.similarGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 1rem;
+}
+
+.similarCard {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.similarImage {
+  width: 100%;
+  aspect-ratio: 2/3;
+  border-radius: 0.5rem;
+}
+
+.similarTitle {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

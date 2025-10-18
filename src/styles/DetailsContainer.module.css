@@ -1,0 +1,100 @@
+.detailsContainer {
+  padding: 2rem;
+}
+
+.detailsTop {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: -8rem;
+  position: relative;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.poster {
+  width: 12rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.detailsInfo {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detailsTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.tagline {
+  font-size: 1.125rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.taglineDark {
+  color: #9ca3af;
+}
+
+.taglineLight {
+  color: #6b7280;
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.voteCountDark {
+  color: #9ca3af;
+}
+
+.voteCountLight {
+  color: #6b7280;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.genresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.genreTag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.genreTagDark {
+  background-color: #374151;
+}
+
+.genreTagLight {
+  background-color: #e5e7eb;
+}
